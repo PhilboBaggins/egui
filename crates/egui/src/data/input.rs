@@ -693,6 +693,10 @@ pub enum Key {
     F18,
     F19,
     F20,
+    F21,
+    F22,
+    F23,
+    F24,
 }
 
 impl Key {
@@ -788,6 +792,10 @@ impl Key {
             Key::F18 => "F18",
             Key::F19 => "F19",
             Key::F20 => "F20",
+            Key::F21 => "F21",
+            Key::F22 => "F22",
+            Key::F23 => "F23",
+            Key::F24 => "F24",
         }
     }
 }

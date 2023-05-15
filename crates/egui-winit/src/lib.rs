@@ -842,6 +842,10 @@ fn translate_virtual_key_code(key: winit::event::VirtualKeyCode) -> Option<egui:
         VirtualKeyCode::F18 => Key::F18,
         VirtualKeyCode::F19 => Key::F19,
         VirtualKeyCode::F20 => Key::F20,
+        VirtualKeyCode::F21 => Key::F21,
+        VirtualKeyCode::F22 => Key::F22,
+        VirtualKeyCode::F23 => Key::F23,
+        VirtualKeyCode::F24 => Key::F24,
 
         _ => {
             return None;

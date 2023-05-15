@@ -195,6 +195,10 @@ pub fn translate_key(key: &str) -> Option<egui::Key> {
         "F18" => Some(Key::F18),
         "F19" => Some(Key::F19),
         "F20" => Some(Key::F20),
+        "F21" => Some(Key::F21),
+        "F22" => Some(Key::F22),
+        "F23" => Some(Key::F23),
+        "F24" => Some(Key::F24),
 
         _ => None,
     }
